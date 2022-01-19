@@ -8,3 +8,8 @@ const removeFirst = ["Milo", "Otis", "Garfield"];
 let appendPet = () => {
    return append.push("Odie");
 }
+
+// Prepends a pet to the beginning of the pets array
+let prependPet = () => {
+   return prepend.unshift("Odie");
+}

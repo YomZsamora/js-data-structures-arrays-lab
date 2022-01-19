@@ -18,6 +18,9 @@ describe("index.js", function () {
 		
 		describe("prepend", function () {
 			it("prepends a pet to the beginning of the pets array", function () {
+
+            prependPet()
+
 				expect(prepend).to.have.ordered.members([
 					"Odie",
 					"Milo",

@@ -2,45 +2,39 @@
   "stats": {
     "suites": 6,
     "tests": 4,
-    "passes": 1,
+    "passes": 2,
     "pending": 0,
-    "failures": 3,
-    "start": "2022-01-19T04:16:09.525Z",
-    "end": "2022-01-19T04:16:10.558Z",
-    "duration": 1033
+    "failures": 2,
+    "start": "2022-01-19T04:22:37.922Z",
+    "end": "2022-01-19T04:22:39.001Z",
+    "duration": 1079
   },
   "tests": [
     {
       "title": "appends pet \"Odie\" to the end of the pets array",
       "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "prepends a pet to the beginning of the pets array",
       "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
-      "duration": 5,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Odie', 'Milo', 'Otis', 'Garfield' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "expected": "[\n  \"Odie\"\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Odie', 'Milo', 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:21:37)\n    at processImmediate (node:internal/timers:463:21)"
-      }
+      "err": {}
     },
     {
       "title": "removes the last pet from the pets array",
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 0,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]",
         "showDiff": true,
         "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
         "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:33:22)\n    at processImmediate (node:internal/timers:463:21)"
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:36:22)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -53,36 +47,23 @@
         "showDiff": true,
         "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
         "expected": "[\n  \"Otis\"\n  \"Garfield\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:41:22)\n    at processImmediate (node:internal/timers:463:21)"
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:44:22)\n    at processImmediate (node:internal/timers:463:21)"
       }
     }
   ],
   "pending": [],
   "failures": [
     {
-      "title": "prepends a pet to the beginning of the pets array",
-      "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
-      "duration": 5,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Odie', 'Milo', 'Otis', 'Garfield' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "expected": "[\n  \"Odie\"\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Odie', 'Milo', 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:21:37)\n    at processImmediate (node:internal/timers:463:21)"
-      }
-    },
-    {
       "title": "removes the last pet from the pets array",
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 0,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]",
         "showDiff": true,
         "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
         "expected": "[\n  \"Milo\"\n  \"Otis\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:33:22)\n    at processImmediate (node:internal/timers:463:21)"
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]\n    at Context.<anonymous> (test/indexTest.js:36:22)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -95,7 +76,7 @@
         "showDiff": true,
         "actual": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
         "expected": "[\n  \"Otis\"\n  \"Garfield\"\n]",
-        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:41:22)\n    at processImmediate (node:internal/timers:463:21)"
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:44:22)\n    at processImmediate (node:internal/timers:463:21)"
       }
     }
   ],
@@ -103,7 +84,14 @@
     {
       "title": "appends pet \"Odie\" to the end of the pets array",
       "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
-      "duration": 2,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a pet to the beginning of the pets array",
+      "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
