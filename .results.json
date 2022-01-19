@@ -5,29 +5,29 @@
     "passes": 2,
     "pending": 0,
     "failures": 2,
-    "start": "2022-01-19T04:22:37.922Z",
-    "end": "2022-01-19T04:22:39.001Z",
-    "duration": 1079
+    "start": "2022-01-19T04:24:26.641Z",
+    "end": "2022-01-19T04:24:27.623Z",
+    "duration": 982
   },
   "tests": [
     {
       "title": "appends pet \"Odie\" to the end of the pets array",
       "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "prepends a pet to the beginning of the pets array",
       "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes the last pet from the pets array",
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]",
@@ -40,7 +40,7 @@
     {
       "title": "removes the First pet from the pets array",
       "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]",
@@ -56,7 +56,7 @@
     {
       "title": "removes the last pet from the pets array",
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Milo', 'Otis' ]",
@@ -69,7 +69,7 @@
     {
       "title": "removes the First pet from the pets array",
       "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]",
@@ -84,14 +84,14 @@
     {
       "title": "appends pet \"Odie\" to the end of the pets array",
       "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "prepends a pet to the beginning of the pets array",
       "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
