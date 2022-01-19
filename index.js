@@ -10,3 +10,6 @@ let appendPet = () => append.push("Odie")
 
 // Prepends a pet to the beginning of the pets array
 let prependPet = () => prepend.unshift("Odie")
+
+// Removes the last pet from the pets array
+let removePet = () => removeLast.pop()
