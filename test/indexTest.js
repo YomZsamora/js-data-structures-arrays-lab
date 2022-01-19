@@ -33,7 +33,7 @@ describe("index.js", function () {
 		describe("removeLast", function () {
 			it("removes the last pet from the pets array", function () {
 
-            removePet()
+            removeLastPet()
 
 				expect(removeLast)
 				.to.have.ordered.members(["Milo", "Otis"])
@@ -43,6 +43,9 @@ describe("index.js", function () {
 		
 		describe("removeFirst", function () {
 			it("removes the First pet from the pets array", function () {
+
+            removeFirstPet()
+
 				expect(removeFirst)
 				.to.have.ordered.members(["Otis", "Garfield"])
 				.and.to.not.include("Milo");
