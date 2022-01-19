@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2022-01-19T12:33:19.877Z",
-    "end": "2022-01-19T12:33:21.216Z",
-    "duration": 1339
+    "start": "2022-01-19T14:14:21.346Z",
+    "end": "2022-01-19T14:14:22.324Z",
+    "duration": 978
   },
   "tests": [
     {
@@ -27,14 +27,14 @@
     {
       "title": "removes the last pet from the pets array",
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes the First pet from the pets array",
       "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -59,14 +59,14 @@
     {
       "title": "removes the last pet from the pets array",
       "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "removes the First pet from the pets array",
       "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
